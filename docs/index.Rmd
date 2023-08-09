@@ -26,6 +26,6 @@ plot_ly(data = mtcars, x = ~hp, y = ~mpg,
         color = ~as.factor(cyl), size = ~wt,
         text = ~paste("Horsepower: ", hp, '<br>Miles per Gallon:', mpg),
         type = "scatter", mode = "markers") %>%
-  layout(legend=(list(title=list(text="<b>Number of Cylinders<b>"))), title = "Miles per Gallon: Miles per Gallon by Horsepower")
+  layout(legend=(list(title=list(text="<b>Number of Cylinders<b>"))), title = "Mtcars: Miles per Gallon by Horsepower")
 ```
 
